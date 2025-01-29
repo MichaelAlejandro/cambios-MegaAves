@@ -12,22 +12,6 @@ body {
 }
 
 /* Header */
-.header {
-    height: 100%;
-    position: relative;
-    z-index: 10;
-}
-
-.navbar {
-    height: 45px;
-    background-color: var(--primary-color);
-    opacity: 0.9;
-}
-
-.links{
-    color: var(--accent-color);
-}
-
 .slider-container {
     height: calc(591px - 45px);
     position: relative;
@@ -80,6 +64,7 @@ body {
 .products {
     width: 754px;
     height: 100%;
+    padding: 10px;
 }
 
 .products h2 {
@@ -169,93 +154,14 @@ body {
     margin-right: 10px;
 }
 
-/* Footer */
-.footer {
-    top: 5em;
-    position: relative;
-    height: 221px;
-    background: var(--primary-color);
-    padding: 20px 0;
-    height: 100%;
-}
-
-.footer-logo {
-    width: 399px;
-    height: 124px;
-    object-fit: contain;
-}
-
-.footer-text {
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--accent-color);
-}
-
-.footer-links {
-    line-height: 30px;
-    width: 179.89px;
-    height: 113.77px;
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links a {
-    color: var(--accent-color);
-    font-size: 20px;
-    line-height: 23.44px;
-    text-decoration: none;
-}
-
-.social-icons {
-    margin: 20px;
-    line-height: 30px;
-}
-
 /* Responsivos */
 @media (max-width: 992px) {
-    .navbar-collapse {
-        background-color: var(--primary-color);
-        position: fixed; 
-        top: 45px;
-        left: 0;
-        width: 100%;
-        height: auto;
-        z-index: 11;
-        padding-top: 20px; 
-        display: none;
-    }
-    
-    .navbar-collapse.show {
-        display: block;
-        opacity: 0.95;
-    }
-    
-    .nav-link {
-        color: var(--accent-color); 
-        font-size: 20px; 
-        padding: 10px;
-    }
-    
-    .nav-link:hover {
-        color: #ffffff; 
-        text-decoration: underline; 
-    }
-    
-    .navbar-toggler {
-        z-index: 12; 
-    }
-
     .text-box {
         width: 90%;
         left: 5%;
         transform: none;
     }   
-    
-    .footer-logo {
-        width: 100%;
-        height: auto;
-    }
-    
+
     .products,
     .contact{
         width: 90%;

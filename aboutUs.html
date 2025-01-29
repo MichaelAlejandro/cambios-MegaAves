@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Sobre la empresa</title>
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/aboutUs.css">
     <link rel="stylesheet" href="assets/css/headerFooter.css">
 </head>
 <body>
     <!-- Sección 1: Header -->
     <header class="header">
-        <div class="slider-container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -24,7 +23,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="links nav-link" href="aboutUs.html">Sobre la empresa</a>
+                                <a class="links nav-link" href="#">Sobre la empresa</a>
                             </li>
                             <li class="nav-item">
                                 <a class="links nav-link" href="#">Productos</a>
@@ -36,71 +35,59 @@
                     </div>
                 </div>
             </nav>
-            <div class="text-box">
-                <h1 class="slider-title"></h1>
-                <p class="slider-description"></p>
-            </div>
-            <div class="interactive-btns"></div>
-        </div>
     </header>
 
-    <!-- Sección 2: Products -->
-    <section class="products container">
-        <h2 class="mb-5">Nuestros productos</h2>
-            <p class="mb-5">En Megaves, nos especializamos en ofrecer productos avícolas frescos y de la más alta calidad para negocios que buscan lo mejor. Atendemos al por mayor, asegurando un suministro confiable, precios competitivos y un servicio ágil que se adapta a las necesidades de tu empresa.</p>
-            <div class="row">
-                <div class="product-list col-md-6">
-                    <h3><img src="assets/images/icon-plus.png" alt="+"> Soluciones para negocios</h3>
-                    <ul>
-                        <li>Pollos enteros</li>
-                        <li>Empaques por presas</li>
-                        <li>Presas condimentadas</li>
-                    </ul>
-                </div>
-                <div class="product-list col-md-6">
-                    <h3><img src="assets/images/icon-plus.png" alt="+"> Soluciones para distribuidores</h3>
-                    <ul>
-                        <li>Pollos enteros</li>
-                        <li>Empaques congelados</li>
-                        <li>Presentaciones por libras</li>
-                    </ul>
-                </div>
-        </div>
-    </section>
-
-    <!-- Sección 3: Marcas -->
-    <section class="brands">
-        <h2>Nuestras Marcas</h2>
+    <!-- Sección 2: Vision-Mission -->
+    <section class="vision-mission">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
-                    <img src="assets\images\Megapollo_dos tintas.png" alt="Marca 1" class="brand-img">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2>MISION</h2>
+                    <p>Producimos y comercializamos responsablemente productos avícolas de calidad para satisfacer al mercado ecuatoriano</p>
                 </div>
-                <div class="col-md-6 text-center">
-                    <img src="assets\images\Megapresas_dos tintas_nat.png" alt="Marca 2" class="brand-img">
+                <div class="col-md-2 d-flex justify-content-center">
+                    <div class="divider"></div>
+                </div>
+                <div class="col-md-5">
+                    <h2>VISION</h2>
+                    <p>En el 2027, Megaves alcanzará ventas mayores a USD 20 MM y una rentabilidad superior al promedio de la Industria, soportada en altos niveles de productividad (FEE >400) en un ambiente excelente para trabajar.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Sección 4: Contact -->
-    <section class="contact container position-relative">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card-contact mt-4">
-                    <h2>Contacto</h2>
-                    <ul class="contact-list">
-                        <li><i class="bi bi-envelope"></i><img src="assets\images\icon_email.png" alt=""> Email</li>
-                        <li><i class="bi bi-envelope"></i>email@ejemplo.com</li>
-                        <li><i class="bi bi-telephone"></i><img src="assets\images\icon_phone.png" alt=""> Teléfono</li>
-                        <li><i class="bi bi-telephone"></i>(123) 456-7890</li>
-                    </ul>
+    <!-- Sección 3: Values -->
+    <section class="values">
+        <div class="container">
+            <h2>VALORES</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-6 text-center">
+                    <img src="assets\images\values\calidad.png" alt="Calidad">
+                </div>
+                <div class="col-md-4 col-sm-6 text-center">
+                    <img src="assets\images\values\compromiso.png" alt="Compromiso">
+                </div>
+                <div class="col-md-4 col-sm-6 text-center">
+                    <img src="assets\images\values\trabajo-equipo.png" alt="Trabajo en equipo">
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets\images\contact-img.png" alt="Contacto" class="contact-img">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-sm-6 text-center">
+                    <img src="assets\images\values\responsabilidad.png" alt="Responsabilidad Social">
+                </div>
+                <div class="col-md-4 col-sm-6 text-center">
+                    <img src="assets\images\values\excelencia.png" alt="Excelencia operativa">
+                </div>
             </div>
         </div>
+    </section>
+
+
+    <!-- Sección 4: Team -->
+    <section class="team container">
+        <h2 class="mb-5">Nuestro Equipo</h2>
+        <p class="mb-5">En Megaves, sabemos que nuestro éxito depende de las personas que lo hacen posible. Contamos con un equipo multidisciplinario compuesto por profesionales apasionados y altamente capacitados, comprometidos con ofrecer productos avícolas de la más alta calidad. Cada área, desde la producción hasta la atención al cliente, trabaja en perfecta coordinación para garantizar soluciones confiables, personalizadas y adaptadas a las necesidades de nuestros clientes.</p>
+        <p class="mb-5"> Nuestra estructura organizativa impulsa resultados mediante una Gerencia General con visión estratégica, un área de Producción que asegura frescura y calidad, Logística y Distribución que optimiza rutas y mantiene la cadena de frío, Atención al Cliente y Ventas que construyen relaciones de confianza, y Control de Calidad que garantiza el cumplimiento de estándares internacionales. Juntos, trabajamos diariamente para ser tu aliado estratégico en el mercado avícola.</p>
     </section>
 
     <!-- Sección 5: Footer -->
