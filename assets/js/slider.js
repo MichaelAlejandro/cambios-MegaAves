@@ -3,20 +3,9 @@ const sliderConfig = {
     images: [
         {
             url: 'assets/images/slider/image1.png',
-            title: 'Título 1',
-            description: 'Descripción 1'
+            title: '30 años',
+            description: 'Entregando la mejor calidad de productos'
         },
-        {
-            url: 'path/to/image2.jpg',
-            title: 'Título 2',
-            description: 'Descripción 2'
-        },
-        {
-            url: 'path/to/image2.jpg',
-            title: 'Título 3',
-            description: 'Descripción 3'
-        }
-        // Agregar más imágenes según sea necesario
     ],
     interval: 8000 // 8 segundos
 };

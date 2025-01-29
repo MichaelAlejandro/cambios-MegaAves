@@ -24,6 +24,10 @@ body {
     opacity: 0.9;
 }
 
+.links{
+    color: var(--accent-color);
+}
+
 .slider-container {
     height: calc(591px - 45px);
     position: relative;
@@ -35,19 +39,19 @@ body {
     width: 754px;
     height: 116px;
     position: absolute;
-    top: 330px;
+    top: 230px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .slider-title {
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 128px;
+    line-height: 150px;
 }
 
 .slider-description {
-    font-size: 36px;
-    line-height: 42.19px;
+    font-size: 40px;
+    line-height: 46px;
 }
 
 .interactive-btns {
@@ -69,6 +73,7 @@ body {
 
 .slider-dot.active {
     background-color: #000;
+    opacity: 0;
 }
 
 /* Products */
@@ -77,64 +82,50 @@ body {
     height: 100%;
 }
 
-.product-img {
-    width: 428px;
-    height: 100%;
-    object-fit: cover;
+.products h2 {
+    font-size: 48px;
+    line-height: 56px;
 }
 
-.card-product {
-    width: 425px;
-    height: 359px;
-    background: #F1F1F1;
-    border-radius: 5px 0 0 0;
-    padding: 20px;
-}
-
-.product-text {
-    width: 95%;
-    height: auto;
-}
-
-.product-text h2 {
+.products p {
     font-size: 24px;
-    line-height: 28.13px;
-}
-
-.product-text p {
-    font-size: 14px;
-    line-height: 18px;
+    line-height: 28px;
 }
 
 .product-list h3 {
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .product-list ul {
-    font-size: 12px;
-    line-height: 14.06px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 /* Brands */
 .brands {
-    height: 488px;
+    height: 536px;
     position: relative;
     height: 100%;
-    background-size: cover;
+    background-color: var(--primary-color);
+    
 }
 
 .brands h2 {
-    padding-top: 70px;
+    padding-top: 20px;
     font-size: 48px;
     line-height: 56.25px;
     text-align: center;
+    color: var(--accent-color);
+    font-weight: 700;
+
 }
 
 .brand-img {
     width: 293.82px;
     height: 255.55px;
     object-fit: contain;
+    margin-bottom: 25px;
 }
 
 /* Contact */
@@ -162,6 +153,8 @@ body {
 .card-contact h2 {
     font-size: 40px;
     line-height: 46.88px;
+    color: var(--accent-color);
+    font-weight: 700;
 }
 
 .contact-list {
@@ -256,10 +249,10 @@ body {
     
     .products,
     .contact{
-        width: 110%;
+        width: 90%;
     }
 
-    .card-product {
+    .contact-img {
         width: 100%;
     }
 }
@@ -277,24 +270,14 @@ body {
     
     .card-contact {
         position: absolute;
-        left: 10%;
+        left: 5%;
         height: auto;
         width: 80%;
         opacity: 0.9;
     }
     
-    .product-img,
     .contact-img {
-        width: 100%;
+        width: 90%;
         height: 100%;
-    }
-    
-    .card-product {
-        position: absolute;
-        left: 10%;
-        top: 85%;
-        height: auto;
-        width: 80%;
-        opacity: 0.9;
     }
 }
