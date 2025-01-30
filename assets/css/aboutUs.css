@@ -51,7 +51,7 @@ body {
 
 /* Team */
 .team {
-    width: 754px;
+    width: 754px auto;
     height: 100%;
     padding: 10px;
     background-color: var(--secundary-color);
