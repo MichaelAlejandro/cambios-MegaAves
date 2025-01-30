@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    height: 45px;
+    height: 50px;
     background-color: var(--primary-color);
     opacity: 0.9;
 }
