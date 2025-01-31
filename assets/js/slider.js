@@ -2,7 +2,7 @@
 const sliderConfig = {
     images: [
         {
-            url: 'assets/images/slider/image1.png',
+            url: 'assets/images/index/slider/pollito-sombrero-242473.jpg',
             title: '30 años',
             description: 'Entregando la mejor calidad de productos'
         },
